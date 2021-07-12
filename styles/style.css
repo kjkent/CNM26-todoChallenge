@@ -1,0 +1,38 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+}
+
+#container {
+    width: 100vw;
+    max-width: 100%;
+    height:100vh;
+    display: flex;
+}
+
+#leftthird {
+    width: 33.333%;
+    display: flex;
+}
+
+#midthird {
+    width: 33.333%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 40vh;
+    padding-bottom: 40vh;
+    flex-direction: column;
+    
+}
+
+#rightthird {
+    width: 33.333%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 5rem;
+}
